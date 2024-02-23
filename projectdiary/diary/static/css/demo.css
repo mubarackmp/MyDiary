@@ -1,0 +1,104 @@
+
+.diary{
+ border: 2px solid blue;
+ border-radius: 10px;
+ padding: 10px;
+ margin-top: 10px;
+ text-align: center;
+ background-color: rgb(27, 214, 189);
+ box-shadow:10px 10px rgb(48, 47, 47);
+}
+.diary .bo{
+    border-bottom: 2px solid blue;
+    padding: 6px;
+    margin: 5px;
+
+}
+.diary h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 4px 4px rgb(63, 62, 62);
+    -webkit-text-stroke-color: rgb(1, 1, 6);
+    -webkit-text-stroke-width: 1px;
+    font-size: xx-large;
+}
+
+.diary form{
+    padding: 5px;
+    margin: 5px;
+}
+.diary form .input-boxe1 input{
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(243, 250, 215);
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(95, 93, 93);
+    margin: 10px;
+}
+.diary form .input-boxe2 input{
+    text-align: left;
+    height: 50px;
+    width: 350px;
+    margin: 5px;
+    box-shadow: 4px 4px rgb(109, 109, 109);
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-image: url('../images/textareabackground.jpg'); */
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media only screen and (min-width:800px) {
+    .diary form .input-boxe2 input{
+        width: 80%;
+        margin: 15px;
+    }
+    .diary form .input-box2 textarea{
+
+        width:100%;
+    }
+    
+}
+
+.diary form .input-box2 textarea{
+    text-align: left;
+    box-shadow: 4px 4px rgb(109, 109, 109);
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-image: url('../images/textareabackground.jpg'); */
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.diary form .input-box3 input{
+    height: 30px;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(6, 2, 237);
+    border: 2px solid rgb(9, 102, 243);
+    box-shadow: 3px 3px rgb(95, 93, 93);
+    margin: 10px;
+}
+.diary form .input-box3 input:hover{
+    width: 200px;
+}
+
+.box3{
+    
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(6, 2, 237);
+}
+.box3 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.box3:hover{
+    color: blue;
+    background-color: rgb(9, 2, 101);
+    text-decoration: none;
+}

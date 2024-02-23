@@ -1,0 +1,66 @@
+.he{
+    border-bottom: 1px solid gray;
+} 
+
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px;
+}
+.boxe{
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    height: 400px;
+}
+.boxe form{
+    padding:10px 0px;
+    width: 300px;
+}
+.boxe form input{
+    margin: 10px;
+    text-align: center;
+    border:0.01px solid rgb(96, 96, 99);
+    border-radius: 5px;
+    background-color: rgb(244, 241, 238);
+}
+.boxe form button{
+    margin-top: 5px;
+    width: 130px;
+    color: white;
+    border:0.01px solid gray;
+    border-radius: 5px;
+    background-color: rgb(52, 108, 250);
+}
+.boxe form button:hover{
+    color: blue;
+    width: 150px;
+    height: 30px;
+}
+
+h6{
+    color: gray;
+}
+h5, a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+a{
+    color: blue;
+}
+a:hover{
+    font-size: 15px;
+}
+.bottom{
+    text-align: center;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+}

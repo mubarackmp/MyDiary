@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: #0303a8;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #5d87fa;
+}
+.text h3{
+color: #0303a8;
+width: 100%;
+text-align: center;
+}
+.text h3 a{
+color: #5d87fa;
+text-decoration: none;
+}
+.text h3 a:hover{
+text-decoration: underline;
+}
+    
